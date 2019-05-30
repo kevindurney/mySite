@@ -1,0 +1,144 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+html {
+    margin: 10px;
+    height: 100%;
+    background-color:#f0f0f0;
+    padding: 0;
+}
+
+
+body {
+  margin: 10px;
+  height: 100%;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #505050;
+}
+
+header, section, footer {
+    box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+
+.site_header {
+    min-height: 50px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.header_class {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_myName {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    font-weight: 300;
+    font-size: 2em;
+}
+.header_myDescription {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 4.5em;
+    padding-top: 0;
+    padding-bottom: 0.5em;
+    font-weight: 200;
+    font-size: 1em;
+}
+.header_logo {
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    left: 0;
+    top: 0;
+    height: 72px;
+    vertical-align: top;
+    position: absolute;
+}
+
+
+.site_body {
+    width: 100%;
+    transition: min-height 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+.about_me {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+}
+.my_pic {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+.header {
+    color: #0050A0;
+    font-weight: 800;
+}
+.employment {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+.company_name {
+    color:#0050A0;
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin: 0;
+}
+.job_title {
+    color:#0050A0;
+    font-size: 0.75em;
+    font-weight: 600;
+    padding-top: 0;
+    margin: 0;
+}
+
+
+.projects {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.projects_class {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.projects_list {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.project_title {
+    margin-left: auto;
+    margin-right: auto;
+}
+.project_description {
+    margin-left: auto;
+    margin-right: auto;
+}
